@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: StratosSkyeng;
+    font-style: normal;
+    src: local('StratosSkyeng'),
+        url('./fonts/stratosskyengweb-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: StratosSkyeng;
+    font-style: normal;
+    src: local('StratosSkyeng'),
+        url('./fonts/stratosskyengweb-regular.woff2') format('woff2');
+}
+
+span {
+    padding-left: 20px;
+}
+
+.container {
+
+    width: 1024px;
+    height: 774px;
+    background: #004980;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 158px;
+
+    &__card {
+        width: 480px;
+        height: 459px;
+        background: #C2F5FF;
+        border-radius: 12px;
+
+    }
+
+    &__title {
+        font-family: 'StratosSkyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 52px;
+        margin-left: 150px;
+        color: #004980;
+
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 67px;
+    }
+
+    &__btn-start {
+        width: 246px;
+        height: 50px;
+        background: #7AC100;
+        border-radius: 12px;
+        border: none;
+        color: #FFFFFF;
+        font-family: 'StratosSkyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+    }
+}
+
+#radioButton {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+
+}
+
+.button {
+    width: 98px;
+    height: 98px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #0080C1;
+
+
+
+
+}
